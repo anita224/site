@@ -1,0 +1,205 @@
+body {
+    font-family: Ubuntu;
+    padding: 0;
+    margin: 0;
+}
+  
+
+.first_ekran {
+    background: rgba(4, 235, 239, 1);
+	background: -moz-linear-gradient(-45deg, rgba(4, 235, 239, 1) 0%, rgba(3, 120, 253, 1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(4, 235, 239, 1)), color-stop(100%, rgba(3, 120, 253, 1)));
+	background: -webkit-linear-gradient(-45deg, rgba(4, 235, 239, 1) 0%, rgba(3, 120, 253, 1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(4, 235, 239, 1) 0%, rgba(3, 120, 253, 1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(4, 235, 239, 1) 0%, rgba(3, 120, 253, 1) 100%);
+	background: linear-gradient(135deg, rgba(4, 235, 239, 1) 0%, rgba(3, 120, 253, 1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#04ebef', endColorstr='#0378fd', GradientType=1);
+
+	color: rgb(255, 255, 255);
+  
+
+}
+ .logo {
+    padding: 60px;
+ }
+
+
+h1 {
+    font-size: 37px;
+    margin-top: 140px;
+    padding-left: 100px;
+    font-family: Ubuntu;
+    font-weight: 700;
+}
+ span {
+    font-size: 59px;
+ }
+
+.first {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    width: 400px;
+   
+}
+.obertka {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    background: #FFD429;
+    font-family: Montserrat;
+    font-weight: 700;
+    color: black;
+    font-size: 15px;
+    border-radius: 1px;
+    width: 222px;
+    display: block;
+    padding: 19px 0;
+    text-align: center;
+    margin-left: 100px;
+    text-decoration: none;
+    transition: all 0.5s ease;
+
+}
+.btn:hover {
+    background: #fba122;
+    color:beige
+}
+.desktop {
+    margin-top: 20px;
+    margin-right: 80px;
+}
+
+.second_ekran {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    
+}
+h4 {
+    font-weight: 700px;
+    font-size: 21px;
+   
+    margin-left: 35px;
+}
+.naviki_vse {
+    display: flex;
+    justify-content: space-between;
+ padding-top: 30px;
+}
+.navik_vse p {
+    font-size: 18px;
+    padding-top: 0;
+}
+
+
+.navik1 {
+    width: 350px;
+  /*  background: url('../img/icon1.jpg') no-repeat left top;*/
+    padding-left: 80px;
+  
+}
+.navik1 img {
+    padding-left: 85px;
+    
+}
+
+.navik2 {
+    width: 430px;
+    
+}
+.navik2 img: {
+    margin: 0 auto;
+  padding-left: 10px;
+    
+}
+
+.navik2 h4 {
+padding-left: 80px;
+padding-top: 0px;
+}
+.navik2 p {
+    text-align: center;
+}
+
+.navik3 h4 {
+    padding-left: 80px;
+}
+.navik3 p {
+    padding-left: 80px;
+}
+
+.navik3 {
+    width: 430px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+h1 {
+    color: red;
+}
+.first  {
+    border: 5px solid blue;
+    background-color: blue;
+    width: 120px;
+    margin-bottom: 150px;
+   color: white;
+}
+ 
+span {
+    color: red;
+}
+h2 {
+    border: 5px solid green;
+    background-color: green;
+    color:white;
+    
+}
+.zagolovok {
+    padding: 60px; 
+}
+.opisanie {
+    margin-left: 150px;
+}
+
+.one {
+    border: 2px solid black;
+}
+.two {
+    border-left: 2px solid black;
+    border-right:  2px solid black;    
+}
+.three {
+    border: 2px solid black;
+}*/
