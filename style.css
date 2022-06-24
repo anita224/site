@@ -195,14 +195,3 @@ form input {
     padding-top: 65px;
 }
 
-.parent {
-    display: flex;
- 
-    
-}
-.kid {
-    gap  
-    border: 1px solid red;
-    padding-left: 50px;
-    
-}
