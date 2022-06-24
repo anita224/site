@@ -1,0 +1,208 @@
+
+
+body {
+    font-family: Ubuntu;
+    padding: 0;
+    margin: 0;
+
+
+}
+
+
+.first_ekran {
+    background: rgba(4, 235, 239, 1);
+    background: -moz-linear-gradient(-45deg, rgba(4, 235, 239, 1) 0%, rgba(3, 120, 253, 1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(4, 235, 239, 1)), color-stop(100%, rgba(3, 120, 253, 1)));
+    background: -webkit-linear-gradient(-45deg, rgba(4, 235, 239, 1) 0%, rgba(3, 120, 253, 1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(4, 235, 239, 1) 0%, rgba(3, 120, 253, 1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(4, 235, 239, 1) 0%, rgba(3, 120, 253, 1) 100%);
+    background: linear-gradient(135deg, rgba(4, 235, 239, 1) 0%, rgba(3, 120, 253, 1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#04ebef', endColorstr='#0378fd', GradientType=1);
+
+    color: rgb(255, 255, 255);
+
+}
+
+.logo {
+    padding: 60px;
+}
+
+
+h1 {
+    font-size: 37px;
+    margin-top: 140px;
+    padding-left: 100px;
+    font-family: Ubuntu;
+    font-weight: 700;
+}
+
+span {
+    font-size: 59px;
+}
+
+.first {
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    width: 400px;
+
+}
+
+.obertka {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    background: #FFD429;
+    font-family: Montserrat;
+    font-weight: 700;
+    color: black;
+    font-size: 15px;
+    border-radius: 1px;
+    width: 222px;
+    display: block;
+    padding: 19px 0;
+    text-align: center;
+    margin-left: 100px;
+    text-decoration: none;
+    transition: all 0.5s ease;
+
+}
+
+.btn:hover {
+    background: #fba122;
+    color: beige
+}
+
+.desktop {
+    margin-top: 20px;
+    margin-right: 80px;
+}
+
+.second_ekran {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+
+}
+
+h4 {
+    font-weight: 700px;
+    font-size: 21px;
+
+    margin-left: 35px;
+}
+
+.naviki_vse {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+
+    /*Размещаем родительский контейнер по центру:*/
+    width: 75%;
+    margin: auto;
+}
+
+
+/*убираем зависимости от элементов, которые были использованы раньше и добавляем новые зависимости*/
+.navik p,
+h4 {
+    margin: 0;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.naviki_vse .navik {
+    /*Выравниваем по центру*/
+    text-align: center;
+
+    /*Выравниваем снизу вверх из-за того что одна картинка меньше других, а текст всегда одинакового размера: */
+    align-self: flex-end;
+}
+
+.Third_ekran {
+    background-color: #ECF3F8;
+    padding-bottom: 35px;
+
+}
+
+.Third_ekran form {
+
+    width: 480px;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+
+
+}
+
+form input {
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid #C9C9C9;
+
+}
+
+.Third_ekran h2 {
+    padding-top: 80px;
+    padding-bottom: 10px;
+}
+
+.btn2 {
+    background: #FFD429;
+    font-family: Montserrat;
+    font-weight: 700;
+    color: black;
+    font-size: 15px;
+    border-radius: 1px;
+    width: 480px;
+    display: block;
+    padding: 19px 0;
+    text-align: center;
+    margin-left: 0px;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    margin-top: 5px;
+}
+
+.btn2:hover {
+    background: #fba122;
+    color: beige
+}
+
+.Footer {
+    padding: 0px;
+    background: #164D7A;
+    height: 142px;
+    margin: 0;
+
+}
+
+.Footer p {
+    margin: unset;
+    padding: unset;
+    color: #ECF3F8;
+    text-align: center;
+    padding-top: 65px;
+}
+
+.parent {
+    display: flex;
+ 
+    
+}
+.kid {
+    gap  
+    border: 1px solid red;
+    padding-left: 50px;
+    
+}
